@@ -1,0 +1,81 @@
+body {
+  background-color: #F5E8C7;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  background-color: #AC7088;
+  font-size: 2.5rem;
+  padding: 15px 0;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 5rem;
+}
+
+h3 {
+  padding: 0 60px 0;
+}
+
+.newRegistration {
+  border-collapse: separate;
+  border-spacing: 100px 25px;
+  align-content: flex-start;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: black;
+  background-color: #AC7088;
+  padding: 0;
+  border-radius: 1.5rem;
+}
+
+.btn {
+  background-color: #F5E8C7;
+  border-radius: 0.5rem;
+  height: 2.3rem;
+  width: 8rem;
+  font-size: 1rem;
+  border-width: thin;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.studentForm {
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: #DEB6AB;
+}
+
+.info-table {
+  border-collapse: collapse;
+  margin: auto;
+  color: black;
+  font-family: "Open Sans", sans-serif
+}
+
+.info-table td, .info-table th {
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.info-table th {
+  background-color: #AC7088;
+}
+
+.info-table td {
+  font-size: 0.8rem;
+}
+
+.info-table td img {
+  width: 50px;
+  height: 50px;
+}

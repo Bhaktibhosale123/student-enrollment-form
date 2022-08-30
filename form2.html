@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <h1>Student's Enrollment Form</h1>
+  <div class="form container">
+    <div class="table1">
+      <form class="studentForm" action="index.html" method="post">
+        <table class="newRegistration">
+          <tr>
+            <td>Your First Name</td>
+            <td>
+              <input id="fname" type="text">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Your Last Name</td>
+            <td>
+              <input id="lname" type="text">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Email address</td>
+            <td>
+              <input id="email" type="email">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Mobile No</td>
+            <td>
+              <input id="mobile" type="text">
+            </td>
+          </tr>
+
+
+          <tr id="gender">
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" value="Male">
+              Male
+              <input type="radio" name="gender" value="Female">
+              Female
+              <input type="radio" name="gender" value="Others" checked>
+              Others
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>Date Of Birth</td>
+            <td>
+              <input id="dob" type="date">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Your Website</td>
+            <td>
+              <input id="web" type="link">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Upload Your Photo</td>
+            <td>
+              <input id="img" type="file" accept=".jpg, .jpeg, .png">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input id="cancel" class="btn" type="button" value="Cancel" onclick="resetForm()">
+            </td>
+            <td class="col-sm-2">
+              <input id="submit" class="btn" type="button" value="Submit" onclick="displayData()">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div class="table2">
+      <h3>Data will be displayed here!</h3>
+      <table class="info-table" id="newTable">
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Mobile No</th>
+          <th>Gender</th>
+          <th>DOB</th>
+          <th>Website</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="form.js" charset="utf-8"></script>
+</body>
+
+</html>
